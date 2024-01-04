@@ -23,7 +23,7 @@ This terraform module will create an S3 Bucket.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_iampolicyandrole"></a> [iampolicyandrole](#module\_iampolicyandrole) | tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iampolicyandrole/aws | 1.0.0 |
+| <a name="module_iampolicyandrole"></a> [iampolicyandrole](#module\_iampolicyandrole) | tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iampolicyandrole/aws | 1.1.0 |
 | <a name="module_test_s3_bucket"></a> [test\_s3\_bucket](#module\_test\_s3\_bucket) | terraform-aws-modules/s3-bucket/aws | 3.14.1 |
 
 ## Resources
