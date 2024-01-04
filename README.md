@@ -11,26 +11,26 @@ This terraform module will create an S3 Bucket.
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | ~> 1.0 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.0 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | 5.30.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 5.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 5.30.0 |
 
 ## Modules
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_iampolicy"></a> [iampolicy](#module\_iampolicy) | tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iampolicy/aws | 1.1.0 |
+| <a name="module_iampolicyandrole"></a> [iampolicyandrole](#module\_iampolicyandrole) | tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iampolicyandrole/aws | 1.0.0 |
 | <a name="module_test_s3_bucket"></a> [test\_s3\_bucket](#module\_test\_s3\_bucket) | terraform-aws-modules/s3-bucket/aws | 3.14.1 |
 
 ## Resources
 
 | Name | Type |
 |------|------|
-| [aws_s3_bucket.example_bucket](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket) | resource |
+| [aws_s3_bucket.example_bucket](https://registry.terraform.io/providers/hashicorp/aws/5.30.0/docs/resources/s3_bucket) | resource |
 
 ## Inputs
 
