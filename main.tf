@@ -10,8 +10,8 @@ module "test_s3_bucket" {
 }
 
 module "iampolicyandrole" {
-  source  = "tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iampolicyandrole/aws"
-  version = "1.0.0"
+  source    = "tfe.karla-gabriel.sbx.hashidemos.io/kg-dev/iampolicyandrole/aws"
+  version   = "1.0.0"
   role_name = "kg-test-role"
 }
 
